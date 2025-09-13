@@ -57,7 +57,7 @@ const printData = (data) => {
                 <img src="${data.nextEvolutions[0].image}" width="166"/>
         </div>
         <div class="NomEvolucion">
-            <h3>${data.nextEvolutions[0].digimon}</h3>
+            <h4>${data.nextEvolutions[0].digimon}</h4>
         </div>
     </div>
     `
