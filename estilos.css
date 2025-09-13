@@ -1,0 +1,263 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(92,99,165,255);
+    align-items: center;
+    font-family: Georgia;
+}
+#input_digimon{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+#button_search{
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: rgb(221,226,248,255);
+}
+.digimon-information{
+    width: 50%;
+    height: 510px;
+    background-color: rgb(221,226,248,255);
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    justify-content: center;
+}
+#show-info{
+    width: 200px;
+    height: 460px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#info-adicional{
+    width: 200px;
+    height: 460px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo1{
+    margin-top: 5px;
+    height: 20px;
+}
+.card{
+    width: 250px;
+    height: 356px;
+    border: 3px rgb(255, 204, 0, 1);
+    border-radius: 10px;
+    border-style: outset;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-content{
+    color: white;
+    font-family: 'Trebuchet MS';
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    color: white;
+    margin-top: 10px;
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgb(233, 65, 65, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.level{
+    margin-top: 6px;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgb(233, 65, 65, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    margin-top: 5px;
+    border-bottom: 3px solid rgb(255, 204, 0, 1);
+}
+.container-izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-derecha{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adicional{
+    margin-top: 6px;
+    width: 230px;
+    height: 70px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgb(233, 65, 65, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.campo {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+}
+.skills{
+    margin-top: 6px;
+    color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    border-style: outset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.otros{
+    font-size: 13px;
+    margin-left: 25px;
+}
+.name{
+    color: white;
+    margin-top: 10px;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgb(233, 65, 65, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.evolucion{
+    color: white;
+    margin-top: 6px;
+    width: 230px;
+    height: 42px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgb(46, 110, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    margin-top: 7px;
+    border-top: 3px solid rgb(255, 204, 0, 1);
+}
+.NomEvolucion{
+    color: white;
+    width: 230px;
+    height: 42px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgb(46, 110, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-info{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-adicionales{
+    width: 40%;
+    height: 530px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.digimon-pEvol{
+    width: 100%;
+    height: 255px;
+    margin-bottom: 10px;
+    background-color: rgb(221,226,248,255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pEvol{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.NomPreEvolucion{
+    color: white;
+    width: 180px;
+    height: 42px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgb(46, 110, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3{
+    border-radius: 10px;
+    margin-bottom: 6px;
+    border: 3px rgb(255, 204, 0, 1);
+    border-style: outset;
+}
+.PreEvol{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.digimon-descripcion{
+    width: 100%;
+    height: 245px;
+    margin-bottom: 10px;
+    background-color: rgb(221,226,248,255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descripcion-digimon {
+    width: 90%;
+    font-size: 14px;
+    margin-left: 23px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px rgb(255, 204, 0, 1);
+    border-style: outset;
+}
+.titulo3{
+    height: 30px;
+}
+
+

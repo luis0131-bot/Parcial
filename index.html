@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digimon</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="container">
+    <h1>Consulta por un Digimon 🦖</h1>
+    
+    <input type="text" name="input_digimon" id="input_digimon">
+    <button id="button_search" onclick="obtenerValorInput()">Buscar</button>
+    <div class="container-info">
+        <div class="digimon-information">
+            <div class="container-izquierda">
+                <div class="titulo1">
+                    <h3>Carta del Digimon</h3>
+                </div>  
+                <div id="show-info"></div>
+            </div>
+            <div class="container-derecha">
+                <div class="titulo1">
+                    <h3>Parte Trasera</h3>
+                </div> 
+                <div id="info-adicional"></div>
+            </div>
+        </div>
+        <div class="container-adicionales">
+            <div class="digimon-pEvol">
+                <div class="titulo2">
+                    <h3>Pre-Evoluciones</h3>
+                </div>
+                <div id="pEvol"></div>
+            </div>
+            <div class="digimon-descripcion">
+                <div class="titulo3">
+                    <h3>Descripcion</h3>
+                </div>
+                <div id="descripcion"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
