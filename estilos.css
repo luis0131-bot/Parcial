@@ -14,10 +14,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; /* separa título a la izquierda y buscador a la derecha */
+    justify-content: space-between; 
 }
 .titulo{
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 .busqueda {
     display: flex;
@@ -26,7 +27,7 @@
 }
 #input_digimon {
     width: 400px;
-    height: 34px;
+    height: 30px;
     border-radius: 8px;
 }
 #button_search {
