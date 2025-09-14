@@ -9,21 +9,26 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body class="container">
-    <h1>Consulta por un Digimon 🦖</h1>
-    
-    <input type="text" name="input_digimon" id="input_digimon">
-    <button id="button_search" onclick="obtenerValorInput()">Buscar</button>
+    <div class="consulta">
+        <div class="titulo">
+            <h1>Consulta por un Digimon 🦖</h1>
+        </div>
+        <div class="busqueda">
+            <input type="text" name="input_digimon" id="input_digimon">
+            <button id="button_search" onclick="obtenerValorInput()">Buscar</button>
+        </div>
+    </div>
     <div class="container-info">
         <div class="digimon-information">
             <div class="container-izquierda">
                 <div class="titulo1">
-                    <h3>Carta del Digimon</h3>
+                    <h2>Carta del Digimon</h2>
                 </div>  
                 <div id="show-info"></div>
             </div>
             <div class="container-derecha">
                 <div class="titulo1">
-                    <h3>Parte Trasera</h3>
+                    <h2>Parte Trasera</h2>
                 </div> 
                 <div id="info-adicional"></div>
             </div>
