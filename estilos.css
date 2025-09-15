@@ -3,12 +3,12 @@
     flex-direction: column;
     background-color: rgb(92,99,165,255);
     align-items: center;
-    font-family: Georgia;
+    font-family: 'Garamond';
 }
 .consulta{
     margin-top: 25px;
     background-color: rgb(221,226,248,255);
-    width: 90%;
+    width: 98%;
     height: 110px;
     border-radius: 10px;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: space-between; 
 }
 .titulo{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 10px;
 }
 .busqueda {
@@ -26,27 +26,29 @@
     align-items: center;
 }
 #input_digimon {
-    width: 400px;
+    width: 420px;
     height: 30px;
     border-radius: 8px;
+    border: white;
 }
 #button_search {
+    width: 100px;
     height: 34px;
     margin-left: 10px;
-    margin-right: 8px;
+    margin-right: 20px;
     border-radius: 8px;
     background-color: rgb(92,99,165);
     color: white;
 }
 .digimon-information{
-    width: 80%;
-    height: 545px;
+    width: 85%;
+    height: 600px;
     background-color: rgb(221,226,248,255);
     margin-top: 20px;
     border-radius: 15px;
+    border-radius: 8px;
     display: flex;
     flex-direction: row;
-    border-radius: 8px;
     justify-content: center;
 }
 #show-info{
@@ -71,6 +73,14 @@
     margin-top: 5px;
     height: 20px;
 }
+.container-info{
+    width: 98%;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .card{
     width: 250px;
     height: 356px;
@@ -78,7 +88,7 @@
     border-radius: 10px;
     border-style: outset;
     background-color: white;
-    margin-top: 50px;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,6 +122,10 @@
     justify-content: center;
     align-items: center;
 }
+.img4 img{
+    border-radius: 10px;
+    margin-left: 20px;
+}
 .img{
     margin-top: 5px;
     border-bottom: 3px solid rgb(255, 204, 0, 1);
@@ -122,7 +136,7 @@
     align-items: center;
 }
 .container-derecha{
-    margin-left: 100px;
+    margin-left: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,17 +214,9 @@
     justify-content: center;
     align-items: center;
 }
-.container-info{
-    width: 90%;
-    height: 500px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 .container-adicionales{
-    width: 50%;
-    height: 600px;
+    width: 60%;
+    height: 630px;
     margin-top: 20px;
     margin-left: 10px;
     display: flex;
@@ -218,7 +224,7 @@
 }
 .digimon-pEvol{
     width: 100%;
-    height: 265px;
+    height: 275px;
     margin-bottom: 10px;
     background-color: rgb(221,226,248,255);
     border-radius: 10px;
@@ -256,11 +262,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 6px;
 }
 .digimon-descripcion{
     width: 100%;
-    height: 270px;
+    height: 315px;
     margin-bottom: 10px;
     background-color: rgb(221,226,248,255);
     border-radius: 10px;
@@ -272,7 +277,7 @@
     width: 90%;
     font-size: 14px;
     margin-left: 23px;
-    margin-top: 25px;
+    margin-top: 30px;
     background-color: white;
     border-radius: 10px;
     border: 3px rgb(255, 204, 0, 1);

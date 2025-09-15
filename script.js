@@ -51,13 +51,13 @@ const printData = (data) => {
             <p><strong>Habilidad:</strong> ${data.skills[0].skill}</p>
         </div>
         <div class="evolucion">
-            <h4>Evolución</h4>
+            <h3>Evolución</h3>
         </div>
         <div class="img2">
                 <img src="${data.nextEvolutions[0].image}" width="166"/>
         </div>
         <div class="NomEvolucion">
-            <h4>${data.nextEvolutions[0].digimon}</h4>
+            <h3>${data.nextEvolutions[0].digimon}</h3>
         </div>
     </div>
     `
@@ -68,7 +68,7 @@ const printData = (data) => {
             <img src="${data.priorEvolutions[0].image}" width="130"/>
         </div> 
         <div class="NomPreEvolucion">
-            <h4>${data.priorEvolutions[0].digimon}</h4>
+            <h3>${data.priorEvolutions[0].digimon}</h3>
         </div>
     </div> 
     <div class="PreEvol">
@@ -76,7 +76,7 @@ const printData = (data) => {
             <img src="${data.priorEvolutions[1].image}" width="130"/>
         </div> 
         <div class="NomPreEvolucion">
-            <h4>${data.priorEvolutions[1].digimon}</h4>
+            <h3>${data.priorEvolutions[1].digimon}</h3>
         </div>
     </div> 
     `
